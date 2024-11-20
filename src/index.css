@@ -1,0 +1,233 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DIN+Condensed:wght@400;700&display=swap');
+
+
+
+
+
+@font-face{
+  font-family: 'DIN';
+  src:url('/public/din/DIN-Regular.ttf') format('woff2'),
+      url('/public/din/DIN-Medium.ttf') format('woff2'),
+      url('/public/din/DIN-Bold.ttf')  format('woff2');
+
+      font-weight: normal;
+      font-style: normal;
+}
+body {
+  font-family: 'DIN', sans-serif;
+}
+
+
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+  .bouncing-image {
+    animation: bounce 3s infinite;
+  }
+
+/* swing animation */
+  @keyframes swing {
+    20% {
+      transform: rotate(15deg);
+    }
+    40% {
+      transform: rotate(-10deg);
+    }
+    60% {
+      transform: rotate(5deg);
+    }
+    80% {
+      transform: rotate(-5deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  .swinging-image {
+    animation: swing 3s infinite;
+  }
+
+  /* pluse animaiton */
+
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+  }
+  
+  .pulsing-image {
+    animation: pulse 3s infinite;
+  }
+
+   /* shaking animation */
+  @keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+      transform: translateX(-10px);
+    }
+    20%, 40%, 60%, 80% {
+      transform: translateX(10px);
+    }
+  }
+  
+  .shaking-image {
+    animation: shake 1s infinite;
+  }
+
+  /* flip animation */
+  @keyframes flip {
+    0%, 100% {
+      transform: rotateY(0deg);
+    }
+    50% {
+      transform: rotateY(180deg);
+    }
+  }
+  
+  .flipping-image {
+    animation: flip 2s infinite;
+  }
+      /* zoom image animaiton */
+  @keyframes zoom {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.3);
+    }
+  }
+
+  
+  .zooming-image {
+    animation: zoom 10s infinite;
+    animation-delay: 3s;
+  }
+  
+/* wobble animation */
+  @keyframes wobble {
+    0%, 100% {
+      transform: translateX(0%);
+    }
+    15% {
+      transform: translateX(-25%) rotate(-5deg);
+    }
+    30% {
+      transform: translateX(20%) rotate(3deg);
+    }
+    45% {
+      transform: translateX(-15%) rotate(-3deg);
+    }
+    60% {
+      transform: translateX(10%) rotate(2deg);
+    }
+    75% {
+      transform: translateX(-5%) rotate(-1deg);
+    }
+  }
+  
+  .wobbling-image {
+    animation: wobble 2s infinite;
+  }
+
+/* spin */
+  
+  @keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinning-image {
+  animation: spin 3s infinite linear;
+}
+
+  
+  
+@keyframes wave {
+    0%, 100% {
+      transform: translateY(0); 
+    }
+    50% {
+      transform: translateY(-10px); 
+    }
+  }
+  
+  .zooming-text span {
+    display: inline-block; 
+    animation: wave 1.5s infinite; 
+  }
+  
+  .zooming-text span:nth-child(1) {
+    animation-delay: 0s; 
+  }
+  
+  .zooming-text span:nth-child(2) {
+    animation-delay: 0.3s; 
+  }
+  
+  .zooming-text span:nth-child(3) {
+    animation-delay: 0.6s; 
+  }
+
+
+
+  .zooming-text1 {
+    display: inline-block;
+  }
+  
+  .zooming-text1 span {
+    display: inline-block;
+    animation: zoomInOut 3s ease-in-out infinite;
+  }
+  
+  .zooming-text1 span:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .zooming-text1 span:nth-child(2) {
+    animation-delay: 0.6s;
+  }
+  
+  .zooming-text1 span:nth-child(3) {
+    animation-delay: 1.2s;
+  }
+  
+  .zooming-text1 span:nth-child(4) {
+    animation-delay: 1.8s;
+  }
+  
+  @keyframes zoomInOut {
+    0%, 100% {
+      transform: scale(1);
+      font-size: 23px;
+    }
+    50% {
+      transform: scale(1.5);
+      font-size: 33px;
+    }
+  }
+  
