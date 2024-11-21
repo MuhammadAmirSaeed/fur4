@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className=' bg-white fixed top-0 left-0 w-full z-20  backdrop-blur-md '>
      <div className='flex justify-between items-center px-[50px] py-[30px] '>
 
-        <NavLink to='/' className='text-white'>
+        <NavLink to='/' className='text-white flipping-image'>
             <img src={logo} alt="logo" className='object-cover w-[50px] h-[50px]' />
         </NavLink>
 
@@ -23,7 +23,7 @@ const Navbar = () => {
         </div>
 
 <div className='flex gap-[30px]'>
-    <NavLink to='/signUp'><button className=' bg-[#00AEEF] text-white  py-2 px-3 rounded-md'>Book Now</button>
+    <NavLink to='/signUp'><button className=' bg-customBlue text-white  py-2 px-3 rounded-md'>Book Now</button>
     </NavLink>
     <NavLink to='/login' className='flex justify-center' >
     <img src={profile} alt="profile" className='cursor-pointer' />

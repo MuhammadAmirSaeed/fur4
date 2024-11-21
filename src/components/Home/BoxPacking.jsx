@@ -15,7 +15,7 @@ const BoxPacking = () => {
   return (
     <div className=' flex flex-col justify-center items-center gap-[30px] '>
         <div>
-            <h1 className='font-din  text-[70px] font-bold'>Sturdy and convenient <span className=' text-[#00AEEF]'>
+            <h1 className='font-din  lg:text-[96px] md:text-[70px] font-bold'>Sturdy and convenient <span className=' text-[#00AEEF]'>
     <Typewriter
             words={['packaging']}
             loop={50}

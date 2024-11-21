@@ -43,7 +43,7 @@ const Footer = () => {
       {/* 2nd section Subscribe  */}
       <div className="my-[50px] flex flex-col justify-center items-center gap-[20px]">
         <div>
-          <h2 className="text-[20px] font-[500] text-[#242424] font-roboto">
+          <h2 className="text-[20px] font-[500] text-daryGrey font-roboto">
             Subscribe for our newsletter
           </h2>
         </div>
@@ -55,7 +55,7 @@ const Footer = () => {
           />
 
           <button
-            className="bg-[#00AEEF] text-[#fff] rounded-[8px] 
+            className="bg-customBlue text-[#fff] rounded-[8px] 
                              px-[65px] py-[8px] -ml-[30px] "
           >
             Subscribe
@@ -73,15 +73,15 @@ const Footer = () => {
             <ul className="flex flex-col gap-[10px] text-[#4A4A4A] cursor-pointer">
               <li className="relative group">
                 Manage Your Account
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#00AEEF] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-customBlue transition-all duration-300 group-hover:w-full"></span>
               </li>
               <li className="relative group">
                 Help
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#00AEEF] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-customBlue transition-all duration-300 group-hover:w-full"></span>
               </li>
               <li className="relative group">
                 Settings
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#00AEEF] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-customBlue transition-all duration-300 group-hover:w-full"></span>
               </li>
             </ul>
           </div>
@@ -93,19 +93,19 @@ const Footer = () => {
             <ul className="flex flex-col gap-[10px] text-[#4A4A4A] cursor-pointer">
               <li className="relative group">
                 Store
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#00AEEF] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-customBlue transition-all duration-300 group-hover:w-full"></span>
               </li>
               <li className="relative group">
                 About
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#00AEEF] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-customBlue transition-all duration-300 group-hover:w-full"></span>
               </li>
               <li className="relative group">
                 Wallet
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#00AEEF] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-customBlue transition-all duration-300 group-hover:w-full"></span>
               </li>
               <li className="relative group">
                 Find a Store
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#00AEEF] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-customBlue transition-all duration-300 group-hover:w-full"></span>
               </li>
             </ul>
           </div>
@@ -117,11 +117,11 @@ const Footer = () => {
             <ul className="flex flex-col gap-[10px] text-[#4A4A4A] cursor-pointer">
               <li className="relative group">
                 About
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#00AEEF] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-customBlue transition-all duration-300 group-hover:w-full"></span>
               </li>
               <li className="relative group">
                 Conventions
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#00AEEF] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-customBlue transition-all duration-300 group-hover:w-full"></span>
               </li>
             </ul>
           </div>
@@ -133,15 +133,15 @@ const Footer = () => {
             <ul className="flex flex-col gap-[10px] text-[#4A4A4A] cursor-pointer">
               <li className="relative group">
                 Contact us
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#00AEEF] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-customBlue transition-all duration-300 group-hover:w-full"></span>
               </li>
               <li className="relative group">
                 FAQ
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#00AEEF] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-customBlue transition-all duration-300 group-hover:w-full"></span>
               </li>
               <li className="relative group">
                 Online Services
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#00AEEF] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-customBlue transition-all duration-300 group-hover:w-full"></span>
               </li>
             </ul>
           </div>
@@ -153,19 +153,19 @@ const Footer = () => {
             <ul className="flex flex-col gap-[10px] text-[#4A4A4A] cursor-pointer">
               <li className="relative group">
                 Order Status
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#00AEEF] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-customBlue transition-all duration-300 group-hover:w-full"></span>
               </li>
               <li className="relative group">
                 Returns
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#00AEEF] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-customBlue transition-all duration-300 group-hover:w-full"></span>
               </li>
               <li className="relative group">
                 Product guide
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#00AEEF] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-customBlue transition-all duration-300 group-hover:w-full"></span>
               </li>
               <li className="relative group">
                 Shipping
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#00AEEF] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-customBlue transition-all duration-300 group-hover:w-full"></span>
               </li>
             </ul>
           </div>
@@ -177,19 +177,19 @@ const Footer = () => {
             <ul className="flex flex-col gap-[10px] text-[#4A4A4A] cursor-pointer">
               <li className="relative group">
                 Terms & Conditions
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#00AEEF] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-customBlue transition-all duration-300 group-hover:w-full"></span>
               </li>
               <li className="relative group">
                 Privacy Policy
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#00AEEF] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-customBlue transition-all duration-300 group-hover:w-full"></span>
               </li>
               <li className="relative group">
                 Cookies Settings
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#00AEEF] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-customBlue transition-all duration-300 group-hover:w-full"></span>
               </li>
               <li className="relative group">
                 Terms of Use
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#00AEEF] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-customBlue transition-all duration-300 group-hover:w-full"></span>
               </li>
             </ul>
           </div>

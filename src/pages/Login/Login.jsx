@@ -3,10 +3,10 @@ import fb from "../../Assets/fb-login.svg";
 import google from "../../Assets/Google.svg";
 const Login = () => {
   return (
-    <div className=" container justify-center items-center ">
+    <div className=" container justify-center items-center m-auto">
       <div className="min-h-full">
         <div className="flex justify-center items-center ">
-          <h1 className="font-din text-[70px] font-bold">
+          <h1 className="font-din lg:text-[96px] md:text-[70px] font-bold">
             Sign in for faster checkout
           </h1>
         </div>
@@ -16,7 +16,7 @@ const Login = () => {
             placeholder="Email or Phone Number"
             className="pl-[40px] border  outline-none w-full max-w-[310px] max-h-[49px] py-3 rounded-md"
           />
-          <button className="bg-[#00AEEF] text-white py-3 px-10 rounded-md -ml-[10px]">
+          <button className="bg-customBlue text-white py-3 px-10 rounded-md -ml-[10px]">
             Login
           </button>
         </div>
@@ -27,13 +27,13 @@ const Login = () => {
             id="rememberMe"
             className="mr-2 leading-tight"
           />
-          <label for="rememberMe" className="text-sm text-[#242424]">
+          <label for="rememberMe" className="text-sm text-daryGrey">
             Remember me
           </label>
         </div>
 
         <div className="flex flex-col justify-center items-center mt-[40px] gap-4">
-          <p className="text-[#242424] text-sm">Login with:</p>
+          <p className="text-daryGrey text-sm">Login with:</p>
           <div className="flex gap-4  ">
             <img src={google} alt=" google" />
             <img src={fb} alt="facebook" />
@@ -42,7 +42,7 @@ const Login = () => {
 
         
         <div className="flex justify-start items-center flex-col mt-[40px] gap-1" >
-            <p className="text-sm text-[#242424]">Rememder me</p>
+            <p className="text-sm text-daryGrey">Rememder me</p>
             <p className="text-sm text-[#00AEEF]">Forgot password?</p>
         </div>
         <div className="flex justify-center items-center mt-[30px]">

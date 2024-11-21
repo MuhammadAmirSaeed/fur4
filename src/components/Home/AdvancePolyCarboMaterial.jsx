@@ -4,7 +4,7 @@ const AdvancePolyCarboMaterial = () => {
   return (
     <div className='pl-[200px]'>
         <div className='flex justify-start items-start m-auto'>
-            <h1 className='text-[70px] font-bold font-din  text-[#242424] max-w-[992px] w-full text-nowrap'>Advenced <span className='zooming-text text-[#00AEEF]'>
+            <h1 className='lg:text-[96px] md:text-[70px] text-[50px]  font-bold font-din  text-daryGrey max-w-[992px] w-full text-nowrap'>Advenced <span className='zooming-text text-[#00AEEF]'>
             <span>Poly</span>
       <span>Carbo</span>
       <span>Max</span>
@@ -13,16 +13,16 @@ const AdvancePolyCarboMaterial = () => {
 
         <div className='flex justify-between items-start mt-[20px] '>
         <div className='max-w-[440px] w-full'>
-            <p className='text-[16px]  font-din text-[#242424]'>Material
+            <p className='text-[16px]   text-daryGrey'>Material
             A better deShedding design made possible using an innovative new composite carbon fiber. 
             </p>
             <br/>
             <br/>
-            <p className='text-[16px] font-din text-[#242424]'>
+            <p className='text-[16px]  text-daryGrey'>
             This groind-breaking material is incredibly strong and curiously lightweight, enabling the innovative and patented FUR4 deShedding enges with eight SafetyNubs.
             </p>
             <br/>
-  <p className='text-[16px]  font-din text-[#242424]'>
+  <p className='text-[16px]  text-daryGrey'>
   The end result is a safer, gentler, and more effective deShedding experience for you and your pet.
   </p>
 

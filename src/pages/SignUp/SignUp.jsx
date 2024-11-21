@@ -55,7 +55,7 @@ const SignUp = () => {
     <ToastContainer />
       <div className="container flex flex-col justify-center items-center lg:px-[300px]">
         <div>
-          <h1 className="font-din  text-[70px] font-bold  text-[#242424] text-nowrap">
+          <h1 className="font-din  lg:text-[96px] md:text-[70px] font-bold  text-daryGrey text-nowrap">
             Сreate Your Account
           </h1>
         </div>
@@ -211,14 +211,14 @@ const SignUp = () => {
           <div className=" flex justify-center items-center py-[50px]">
           <button
             type="submit"
-            className=" bg-[#00AEEF] text-white px-10 py-3 rounded-md hover:bg-700"
+            className=" bg-customBlue text-white px-10 py-3 rounded-md hover:bg-700"
           >
             Continue
           </button>
           </div>
 
           <div className=" flex flex-col justify-center items-center gap-2">
-            <p className="text-[#242424] text-sm">
+            <p className="text-daryGrey text-sm">
             Create account with:
             </p>
               <div className=" flex gap-4">

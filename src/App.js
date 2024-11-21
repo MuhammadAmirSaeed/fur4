@@ -18,6 +18,8 @@ function App() {
     <Navbar/>
     <div className="mt-36">
    </div>
+
+
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/login" element={<Login/>}/>
